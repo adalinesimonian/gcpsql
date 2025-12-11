@@ -4,7 +4,6 @@ version = "0.1.0"
 edition = "2024"
 authors = ["Adaline Simonian <adalinesimonian@pm.me>"]
 license = "ISC"
-license-file = "LICENCE"
 
 [dependencies]
 anyhow = "1.0"
