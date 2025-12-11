@@ -1,0 +1,33 @@
+{
+  "editor.rulers": [80, 120],
+  "editor.formatOnSave": true,
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
+  "editor.defaultFormatter": "prettier.prettier-vscode",
+  "rust-analyzer.check.command": "clippy",
+  "rust-analyzer.check.extraArgs": [
+    "--release",
+    "--all-features",
+    "--",
+    "-D",
+    "clippy::suspicious",
+    "-D",
+    "clippy::style",
+    "-D",
+    "clippy::complexity",
+    "-D",
+    "clippy::perf",
+    "-D",
+    "clippy::dbg_macro",
+    "-D",
+    "clippy::todo",
+    "-D",
+    "clippy::unimplemented",
+    "-D",
+    "warnings"
+  ]
+}
